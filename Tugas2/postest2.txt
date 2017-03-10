@@ -1,0 +1,12 @@
+keyword prolog
+
+1. Predicates = Fungsi untuk memberikan gambaran aka kata-kata yang ada di fungsi clause.
+2. clauses = fungsi untuk memberika fakta-fakta yang ada untuk memberika gambaran kepada VPE dalam melakukan pengujian untuk mencari solusi dari pertanyaan yang diberikan.
+3. goal = Fungsi untuk menampilkan hasil eksekusi dari program yang telah dibuat pada VPE.
+4. nondeterm = menentukan bahwa kemungkinan ada sejumlah fakta dari suatu predikat sepanjang program berjalan(default).
+5. determ = menentukan bahwa hanya boleh ada satu fakta dari suatu predikat sepanjang program berjalan.
+6. domain = untuk menyatakan jenis variabel atau argumen.
+7. single = menentukan hanya satu fakta dari predikat yang akan selalu ada.
+8. global = menentukan bahwa setion fatc adalah global dalam program.
+9. fact = untuk memulai selection.
+10. no copy = pemanggilan fakta akan mengikat variabel ke sebuah string atau ke sebuah objek jamak. 
