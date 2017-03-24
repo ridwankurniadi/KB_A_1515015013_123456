@@ -1,0 +1,21 @@
+ROLE : beli_mobil(Model,warna):-   
+	mobil(Model,warna,harga),
+	warna(warna,seksi),!,
+	harga < 25000.
+penjelasan: variabel warana di unifungsikan ke variabel Y
+
+Call : Harga<25000
+Call : mobil(model,warna,harga),
+COCOK: mobil(jaguar,hitam,24000).
+penjelasan : X diikat ke jaguar
+
+CALL : warna(warna,seksi).
+COCOK: warna(merah,seksi).
+penjelasan : Y diikat ke merah
+
+Kesimpulan :
+1. subgoal harus Y harus di dipenuhi/diuji dari paling atas ke bagian bawah.
+2. Kluasa predikat Y terikat pada varibel warna.
+3. pada variabel warna merah terpenuhi karena predikat cocok dengan      kondisi adanya seksi dan merah adalah Y.
+4. mencari dengan harga kurang dari 25000
+5. kluasa mobil model mobil jaguar terpenuhi karena harganya 24000    dan mengikat variabel X ke jaguar karena harus memenuhi subgoal.
